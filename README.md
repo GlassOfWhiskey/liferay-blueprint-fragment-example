@@ -1,0 +1,1 @@
+# liferay-blueprint-fragment-example
