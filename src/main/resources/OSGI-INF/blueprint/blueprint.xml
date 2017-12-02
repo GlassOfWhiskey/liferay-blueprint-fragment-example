@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+	<bean
+		class="com.liferay.data.mapping.type.paragraph.internal.fragment.ParagraphDDMFormFieldType"
+		id="com.liferay.data.mapping.type.paragraph.internal.fragment.ParagraphDDMFormFieldType"
+	/>
+
+	<service
+		id="com.liferay.data.mapping.type.paragraph.internal.fragment.ParagraphDDMFormFieldType.service"
+		interface="com.liferay.dynamic.data.mapping.form.field.type.DDMFormFieldType"
+		ranking="100"
+		ref="com.liferay.data.mapping.type.paragraph.internal.fragment.ParagraphDDMFormFieldType"
+	>
+		<service-properties>
+			<entry key="ddm.form.field.type.icon" value="paragraph" />
+			<entry key="ddm.form.field.type.js.class.name" value="Liferay.DDM.Field.Paragraph" />
+			<entry key="ddm.form.field.type.js.module" value="liferay-ddm-form-field-paragraph" />
+			<entry key="ddm.form.field.type.label" value="paragraph-field-type-label" />
+			<entry key="ddm.form.field.type.name" value="paragraph" />
+		</service-properties>
+	</service>
+</blueprint>

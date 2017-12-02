@@ -1,0 +1,4 @@
+Bundle-Name: Modalsource Dynamic Data Mapping Type Paragraph Fragment
+Bundle-SymbolicName: com.modalsource.dynamic.data.mapping.type.paragraph.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.dynamic.data.mapping.type.paragraph;bundle-version="2.0.7"
